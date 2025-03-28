@@ -1,2 +1,3 @@
-# lanatomy
-For organizing small, Steam-based LAN parties
+# LANatomy
+
+For organizing small, Steam-based LAN parties.
