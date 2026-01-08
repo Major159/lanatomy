@@ -23,13 +23,15 @@ extra["snippetsDir"] = file("build/generated-snippets")
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
-	implementation("org.springframework.boot:spring-boot-starter-hateoas")
-	implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.lukaspradel:steam-web-api:1.11.0")
+
 	runtimeOnly("io.micrometer:micrometer-registry-otlp")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.restdocs:spring-restdocs-mockmvc")
 	testImplementation("org.springframework.security:spring-security-test")
+
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 

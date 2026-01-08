@@ -5,6 +5,8 @@ build/
 !**/src/test/**/build/
 HELP.md
 
+secrets.properties
+
 # Compiled class file
 *.class
 
